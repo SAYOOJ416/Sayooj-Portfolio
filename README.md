@@ -35,7 +35,7 @@ Customized ERPNext workflows, DocTypes, reports, and automation scripts to suppo
 Toc H Institute of Science & Technology (2021–2025)
 
 ## Portfolio Website
-Visit: https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/
+Visit: https://sayoojkgit18.github.io/Sayooj-Portfolio/
 
 ## Contact
 📧 Email: sayoojk001@gmail.com  
