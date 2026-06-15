@@ -78,6 +78,27 @@ h2{
     border-left:4px solid #000;
 }
 
+.tech{
+    margin-top:8px;
+    font-size:0.95rem;
+    font-weight:bold;
+}
+
+.project-link{
+    display:inline-block;
+    margin-top:10px;
+    background:#000;
+    color:#fff;
+    padding:8px 14px;
+    border-radius:5px;
+    text-decoration:none;
+}
+
+.project-link:hover{
+    background:#333;
+    text-decoration:none;
+}
+
 a{
     color:#000;
     text-decoration:none;
@@ -93,6 +114,12 @@ footer{
     text-align:center;
     padding:20px;
     margin-top:20px;
+}
+
+@media(max-width:600px){
+    header h1{
+        font-size:2.2rem;
+    }
 }
 </style>
 </head>
@@ -131,10 +158,13 @@ footer{
             <span class="skill">React.js</span>
             <span class="skill">Node.js</span>
             <span class="skill">MongoDB</span>
-            <span class="skill">ERPNext</span>
             <span class="skill">MySQL</span>
-            <span class="skill">MS Excel</span>
+            <span class="skill">ERPNext</span>
+            <span class="skill">Frappe Framework</span>
             <span class="skill">Git & GitHub</span>
+            <span class="skill">Wireshark</span>
+            <span class="skill">Linux Basics</span>
+            <span class="skill">MS Excel</span>
         </div>
     </section>
 
@@ -148,7 +178,7 @@ footer{
             <p>Jan 2026 – Present</p>
             <p>
                 Working on ERPNext customization, DocTypes, workflows,
-                reports, server scripts, and backend development.
+                reports, server scripts, backend logic, and ERP-based business solutions.
             </p>
         </div>
 
@@ -168,7 +198,7 @@ footer{
             <p>May 2023</p>
             <p>
                 Learned cybersecurity fundamentals, network security,
-                vulnerability assessment, and threat detection techniques.
+                vulnerability assessment, packet analysis, and threat detection techniques.
             </p>
         </div>
 
@@ -182,9 +212,62 @@ footer{
             <h3>Coconut Maturity Classification System</h3>
             <p>
                 Developed a web and Android application using deep learning
-                for coconut maturity classification. Built using Python,
-                Flask, MobileNetV3, and SQL database integration.
+                for coconut maturity classification. The system classifies coconut
+                maturity stages using image input and provides prediction results.
             </p>
+            <p class="tech">Technologies: Python, Flask, Deep Learning, SQL, Image Processing</p>
+        </div>
+
+        <div class="card project">
+            <h3>AMC Management System for Banking Sector</h3>
+            <p>
+                Developed an ERPNext-based project for managing Annual Maintenance
+                Contracts. The system supports contract tracking, service requests,
+                customer support workflows, expiry monitoring, and reporting.
+            </p>
+            <p class="tech">Technologies: ERPNext, Frappe Framework, Python, SQL, Reports</p>
+            <a class="project-link" href="https://github.com/sayoojkgit18/projects/tree/main/amc-management-erpnext" target="_blank">
+                View Project
+            </a>
+        </div>
+
+        <div class="card project">
+            <h3>Cooling System Company ERP Implementation</h3>
+            <p>
+                Created an ERPNext customization project for an air-conditioning
+                and cooling service company. The project includes service request
+                tracking, sales operations, invoicing, workflow automation, and reports.
+            </p>
+            <p class="tech">Technologies: ERPNext, Frappe Framework, Python, SQL, Workflow Automation</p>
+            <a class="project-link" href="https://github.com/sayoojkgit18/projects/tree/main/cooling-system-erpnext" target="_blank">
+                View Project
+            </a>
+        </div>
+
+        <div class="card project">
+            <h3>Car Showroom Management Website</h3>
+            <p>
+                Built a MERN stack demo website for a car showroom. The project
+                includes vehicle listings, customer enquiry form, responsive user
+                interface, backend APIs, and database integration.
+            </p>
+            <p class="tech">Technologies: MongoDB, Express.js, React.js, Node.js, REST API</p>
+            <a class="project-link" href="https://github.com/sayoojkgit18/projects/tree/main/car-showroom-management-website" target="_blank">
+                View Project
+            </a>
+        </div>
+
+        <div class="card project">
+            <h3>Network Traffic Analysis using Wireshark</h3>
+            <p>
+                Performed network packet analysis using Wireshark to understand
+                TCP/IP communication, identify protocols, inspect packet details,
+                and analyze suspicious traffic patterns.
+            </p>
+            <p class="tech">Technologies: Wireshark, TCP/IP, Network Security, Packet Analysis</p>
+            <a class="project-link" href="https://github.com/sayoojkgit18/projects/tree/main/network-traffic-analysis-wireshark" target="_blank">
+                View Project
+            </a>
         </div>
 
         <div class="card project">
@@ -194,6 +277,7 @@ footer{
                 business operations. Worked with server scripts, data validation,
                 workflow automation, and report generation within the ERP framework.
             </p>
+            <p class="tech">Technologies: ERPNext, Frappe Framework, Python, SQL</p>
         </div>
 
     </section>
@@ -214,10 +298,10 @@ footer{
         <h2>Contact</h2>
 
         <div class="card">
-            <p><strong>Email:</strong> sayoojk001@gmail.com</p>
-            <p><strong>Phone:</strong> +91 7356069730</p>
-            <p><strong>GitHub:</strong> github.com/sayoojkgit18</p>
-            <p><strong>LinkedIn:</strong> linkedin.com/in/sayooj-krishnan-pm</p>
+            <p><strong>Email:</strong> <a href="mailto:sayoojk001@gmail.com">sayoojk001@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+917356069730">+91 7356069730</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/sayoojkgit18" target="_blank">github.com/sayoojkgit18</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sayooj-krishnan-pm" target="_blank">linkedin.com/in/sayooj-krishnan-pm</a></p>
         </div>
     </section>
 
